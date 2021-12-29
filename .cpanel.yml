@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/chanelgl/public_html/
-    - /repositories/ChanelQuesnel index.html $DEPLOYPATH
-    - /repositories/ChanelQuesnel -R images $DEPLOYPATH
-    - /repositories/ChanelQuesnel -R js $DEPLOYPATH
-    - /repositories/ChanelQuesnel -R css $DEPLOYPATH
+    - /bin/cp ChanelQuesnel/index.html $DEPLOYPATH
+    - /bin/cp -R ChanelQuesnel/images $DEPLOYPATH
+    - /bin/cp -R ChanelQuesnel/js $DEPLOYPATH
+    - /bin/cp -R ChanelQuesnel/css $DEPLOYPATH
