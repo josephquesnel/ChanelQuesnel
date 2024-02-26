@@ -633,9 +633,10 @@ li{
 
 .about-main-contents .about-image{
     width: 55%;
+    margin-top: 10%;
     height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .about-main-contents .about-image .about-img-container{
