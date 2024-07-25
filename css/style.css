@@ -10,9 +10,8 @@ Version: 1.0
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     @font-face {
-        font-family: "monument";
-        src: url('fonts/monumentextended-regular-webfont.woff2') format('woff2'),
-        url('fonts/monumentextended-regular-webfont.woff') format('woff');
+        font-family: "redhat";
+        src: url('fonts/RedHatDisplay-Black.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
     }     
@@ -21,14 +20,7 @@ Version: 1.0
         src: url('fonts/Modesticdisplay-Bold.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-        }
-    @font-face {
-        font-family: "camel";
-        src: url('fonts/camel.woff2') format('woff2'),
-        url('fonts/camel.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        }      
+        }  
      
 
 
@@ -151,11 +143,11 @@ li{
     width: auto;
     height: auto;
     pointer-events: none;
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
-    font-family: monument;
+    font-family: redhat;
     z-index: 5;
-    font-weight: 100;
+    font-weight: 900;
     display: inline-block;
     overflow: hidden;
     animation: loader 3s cubic-bezier(0.84, 0, 0.08, 0.99)  ;
@@ -290,7 +282,7 @@ li{
     font-size: 50px;
     text-align: center;
     font-weight: 300;
-    font-family: camel;
+    font-family: modestic;
     transition: all .4s ease;
     z-index: 3;
     position: relative;
@@ -315,7 +307,7 @@ li{
     font-size: 20px;
     text-align: center;
     font-weight: 300;
-    font-family: camel;
+    font-family: modestic;
     transition: all .4s ease;
     z-index: 3;
     position: relative;
@@ -329,7 +321,7 @@ li{
       padding: 20px;
       bottom: 1%;
       color:#a3bebe;
-      font-size: camel;
+      font-size: modestic;
   }
   /* NAVIGATION CONTENT */
 
